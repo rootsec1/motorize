@@ -13,7 +13,7 @@ class _SplashPageState extends State<SplashPage> {
   void initState() {
     super.initState();
     Future.delayed(Duration(seconds: 2), () {
-      Navigator.pushNamed(context, 'signup');
+      Navigator.pushNamed(context, 'signin');
     });
   }
 
